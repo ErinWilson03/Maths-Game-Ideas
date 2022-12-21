@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="diceButton">
+		<!--Code is from https://javascript.plainenglish.io/build-a-math-game-with-javascript-8271f162b887 -->
+		<a href="dice.html"><button>DICE GAME</button></a>
+	</div>
+<br>
+
+	<!-- 1 The Game  -->
+	<div class="math-games">
+		<span class="items">
+			<span class="blue">4</span> - <span class="red">2</span> = ?
+		</span>
+		<input id="input-el" type="text" class="items" placeholder="type your answer ">
+		<button id="check-btn" class="items">Check</button>
+	</div>
+
+	<!--Modal for answers-->
+	<div id="myModal" class="modal-container">
+		<span class="close">&times;</span>
+		<p class="theAnswer">The answer</p>
+	</div>
+
+
+	<script src="app.js" async defer></script>
+</body>
+
+</html>

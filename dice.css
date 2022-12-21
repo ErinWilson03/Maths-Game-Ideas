@@ -1,0 +1,19 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+button {
+    background: #5dabfe;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 20px;
+    padding: 1em 2em;
+    text-decoration: none;
+    }
+  
+button:hover {
+    background: #a0cdfd;
+    text-decoration: none;
+}

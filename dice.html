@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dice Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="dice.css">
+</head>
+
+<body>
+	<!--Header-->
+	<!--Nav-->
+
+	<!--Game Introduction-->
+	<div class="container">
+		<div class="subheading">
+			<h2>Dice Multiplication Game</h2>
+			<button type="button " onclick="roll()">Roll The Dice!</button>
+		</div>
+
+		<!--Score-->
+		<div>
+			<h2>Score: <span id="score">0</span></h2>
+		</div>
+
+		<!--Dice 1-->
+		<div class="dice">
+			<h3 class="dice1">Dice 1: </h3>
+			<h3 class="number1">0</h3>
+			<!--Dice src will be changed with each roll in the js-->
+			<img class="img1" src="images/dice1.png">
+
+			<!--Dice 2-->
+			<h3 class="dice2">Dice 2: </h3>
+			<h3 class="number2">0</h3>
+			<!--Dice src will be changed with each roll in the js-->
+			<img class="img2" src="images/dice1.png">
+		</div>
+
+
+		<!--Answer Section-->
+		<form>
+			<label for="answer-box">Answer: </label><br>
+			<input type="text" id="answer-box"><br>
+			<button type="button" onclick="compare()">Submit Answer</button>
+		</form>
+		<!--Play Again Button-->
+
+
+	</div>
+
+	<script src="dice.js"></script>
+</body>
